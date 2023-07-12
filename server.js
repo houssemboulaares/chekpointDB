@@ -1,7 +1,7 @@
 const express = require('express')
 const personRouter = require('./routers/personRouter')
 const app = express()
-const port = 5000
+const port = 8000
 app.use(express.json())
 const connectDB = require('./helpers/connectDB')
 connectDB()
